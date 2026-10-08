@@ -1,0 +1,13 @@
+{
+    "name":  "claude-mod-heads-up",
+    "owner":  {
+                  "name":  "Hasan"
+              },
+    "plugins":  [
+                    {
+                        "description":  "A second check that flags what you might miss after longer turns (like Anthropic\u0027s You Should Know), switched on per chat with one click and live at once. One short model call per longer turn while on; nothing while off.",
+                        "name":  "heads-up",
+                        "source":  "./"
+                    }
+                ]
+}

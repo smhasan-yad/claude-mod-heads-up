@@ -1,0 +1,14 @@
+{
+  "name": "heads-up",
+  "version": "0.3.0",
+  "description": "A second check that flags what you might miss after longer turns (like Anthropic's You Should Know), switched on per chat with one click and live at once. One short model call per longer turn while on; nothing while off.",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "model": {
+      "type": "string",
+      "title": "Reviewer model",
+      "description": "The model that reviews each longer turn",
+      "default": "sonnet"
+    }
+  }
+}
